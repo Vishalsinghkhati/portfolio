@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-black text-white;
+}
+
+/* Modern gradient background */
+.gradient-bg {
+  background: radial-gradient(
+    circle at 20% 20%,
+    rgba(59,130,246,0.15),
+    transparent 40%
+  ),
+  radial-gradient(
+    circle at 80% 80%,
+    rgba(168,85,247,0.15),
+    transparent 40%
+  );
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+.glow {
+  box-shadow: 0 0 40px rgba(59,130,246,0.4);
+}
