@@ -4,36 +4,29 @@ import Reveal from "./Reveal"
 const Projects = () => {
   const projects = [
     {
-      title: "CampusNav AI",
+      title: "Smart Tracker",
       description:
-        "Smart campus navigation system using graph based pathfinding and AI chatbot.",
-      tech: ["React", "Node", "PostgreSQL"],
-      github: "#",
-      live: "#",
-    },
-    {
-      title: "PushUpPal",
-      description:
-        "AI based fitness trainer using pose detection and gamified workouts.",
-      tech: ["React", "TensorFlow", "Node"],
-      github: "#",
-      live: "#",
+        "A full-stack task management app that helps users organize tasks, track productivity, and manage daily workflow with a clean and responsive UI.",
+      tech: ["React", "Node.js", "MongoDB", "Express"],
+      github: "https://github.com/your-username/smart-tracker",
+      live: "https://your-smart-tracker-live-link.com",
+      featured: true,
     },
     {
       title: "Finance Dashboard",
       description:
-        "Full stack finance dashboard for tracking expenses and analytics.",
-      tech: ["React", "Node", "MongoDB"],
-      github: "#",
-      live: "#",
+        "Interactive finance dashboard for tracking expenses, income analytics, and visual insights using charts and real-time data visualization.",
+      tech: ["React", "Node.js", "MongoDB", "Chart.js"],
+      github: "https://github.com/your-username/finance-dashboard",
+      live: "https://your-finance-dashboard-live.com",
     },
     {
-      title: "AI Notes Generator",
+      title: "Portfolio Website",
       description:
-        "Generate notes automatically from YouTube videos using AI.",
-      tech: ["React", "Node", "AI"],
-      github: "#",
-      live: "#",
+        "Personal developer portfolio showcasing projects, skills, and experience with modern UI, animations, and responsive design.",
+      tech: ["React", "Tailwind", "Framer Motion"],
+      github: "https://github.com/your-username/portfolio",
+      live: "https://your-portfolio-live.com",
     },
   ]
 
@@ -54,18 +47,27 @@ const Projects = () => {
               <motion.div
                 whileHover={{ y: -8 }}
                 className="
-                glass
-                p-6
-                rounded-xl
-                hover:shadow-[0_0_30px_rgba(59,130,246,0.3)]
-                transition duration-300
+                  glass
+                  p-6
+                  rounded-xl
+                  hover:shadow-[0_0_30px_rgba(59,130,246,0.3)]
+                  transition duration-300
                 "
               >
 
+                {/* Featured Badge */}
+                {project.featured && (
+                  <span className="text-xs bg-yellow-400 text-black px-2 py-1 rounded-full mb-3 inline-block">
+                    Featured Project
+                  </span>
+                )}
+
+                {/* Title */}
                 <h3 className="text-xl font-semibold mb-3">
                   {project.title}
                 </h3>
 
+                {/* Description */}
                 <p className="text-gray-400 mb-4">
                   {project.description}
                 </p>
@@ -76,11 +78,11 @@ const Projects = () => {
                     <span
                       key={i}
                       className="
-                      text-xs 
-                      bg-gray-800 
-                      px-3 
-                      py-1 
-                      rounded-full
+                        text-xs 
+                        bg-gray-800 
+                        px-3 
+                        py-1 
+                        rounded-full
                       "
                     >
                       {tech}
@@ -89,36 +91,38 @@ const Projects = () => {
                 </div>
 
                 {/* Buttons */}
-                <div className="flex gap-4">
+                <div className="flex gap-4 mt-2">
 
                   <a
                     href={project.github}
+                    target="_blank"
+                    rel="noreferrer"
                     className="
-                    border 
-                    border-gray-600 
-                    px-4 
-                    py-2 
-                    rounded-lg
-                    hover:bg-white 
-                    hover:text-black 
-                    transition
+                      border border-gray-600
+                      px-4 py-2
+                      rounded-lg
+                      text-sm
+                      hover:bg-white hover:text-black
+                      transition
                     "
                   >
-                    GitHub
+                    Code
                   </a>
 
                   <a
                     href={project.live}
+                    target="_blank"
+                    rel="noreferrer"
                     className="
-                    bg-blue-500 
-                    px-4 
-                    py-2 
-                    rounded-lg
-                    hover:bg-blue-600
-                    transition
+                      bg-gradient-to-r from-blue-500 to-purple-500
+                      px-4 py-2
+                      rounded-lg
+                      text-sm
+                      hover:opacity-90
+                      transition
                     "
                   >
-                    Live Demo
+                    Live
                   </a>
 
                 </div>
@@ -128,7 +132,6 @@ const Projects = () => {
           ))}
 
         </div>
-
       </div>
     </section>
   )
