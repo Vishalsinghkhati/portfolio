@@ -7,9 +7,9 @@ const Projects = () => {
       title: "Smart Tracker",
       description:
         "A full-stack task management app that helps users organize tasks, track productivity, and manage daily workflow with a clean and responsive UI.",
-      tech: ["React", "Node.js", "MongoDB", "Express"],
-      github: "https://github.com/your-username/smart-tracker",
-      live: "https://your-smart-tracker-live-link.com",
+      tech: ["React", "Node.js", "Render", "Express"],
+      github: "https://github.com/Vishalsinghkhati/smart-tracker.git",
+      live: "smart-tracker-eta.vercel.app",
       featured: true,
     },
     {
@@ -17,16 +17,16 @@ const Projects = () => {
       description:
         "Interactive finance dashboard for tracking expenses, income analytics, and visual insights using charts and real-time data visualization.",
       tech: ["React", "Node.js", "MongoDB", "Chart.js"],
-      github: "https://github.com/your-username/finance-dashboard",
-      live: "https://your-finance-dashboard-live.com",
+      github: "https://github.com/Vishalsinghkhati/Finance_dashborad.git",
+      live: "finance-vishaldashborad-one.vercel.app",
     },
     {
       title: "Portfolio Website",
       description:
         "Personal developer portfolio showcasing projects, skills, and experience with modern UI, animations, and responsive design.",
       tech: ["React", "Tailwind", "Framer Motion"],
-      github: "https://github.com/your-username/portfolio",
-      live: "https://your-portfolio-live.com",
+      github: "https://github.com/Vishalsinghkhati/portfolio.git",
+      live: "https://portfolio-vishalsinghkhatis-projects.vercel.app/",
     },
   ]
 
