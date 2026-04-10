@@ -25,7 +25,7 @@ const Skills = () => {
     { name: "Tailwind", icon: <SiTailwindcss />, level: 85 },
     { name: "Node.js", icon: <FaNodeJs />, level: 75 },
     { name: "MongoDB", icon: <SiMongodb />, level: 70 },
-    { name: "PostgreSQL", icon: <SiPostgresql />, level: 65 },
+    { name: "MYSQL", icon: <SiPostgresql />, level: 85 },
     { name: "Git", icon: <FaGitAlt />, level: 80 },
     { name: "HTML", icon: <FaHtml5 />, level: 90 },
     { name: "CSS", icon: <FaCss3Alt />, level: 85 },
