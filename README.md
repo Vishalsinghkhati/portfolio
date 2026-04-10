@@ -1,6 +1,6 @@
 # Portfolio
 
-My personal developer portfolio built using React, Tailwind CSS, and Framer Motion.
+Personal developer portfolio built using React, Tailwind CSS, and Framer Motion.
 
 ## Features
 - Modern UI design
