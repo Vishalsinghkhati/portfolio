@@ -9,7 +9,7 @@ const Projects = () => {
         "A full-stack task management app that helps users organize tasks, track productivity, and manage daily workflow with a clean and responsive UI.",
       tech: ["React", "Node.js", "Render", "Express"],
       github: "https://github.com/Vishalsinghkhati/smart-tracker.git",
-      live: "smart-tracker-eta.vercel.app",
+      live: "https://smart-tracker-eta.vercel.app/",
       featured: true,
     },
     {
