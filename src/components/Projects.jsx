@@ -18,7 +18,7 @@ const Projects = () => {
         "Interactive finance dashboard for tracking expenses, income analytics, and visual insights using charts and real-time data visualization.",
       tech: ["React", "Node.js", "Chart.js"],
       github: "https://github.com/Vishalsinghkhati/Finance_dashborad.git",
-      live: "finance-vishaldashborad-one.vercel.app",
+      live: "https://finance-vishaldashborad-one.vercel.app/",
     },
     {
       title: "Portfolio Website",
