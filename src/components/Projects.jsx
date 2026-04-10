@@ -4,6 +4,7 @@ import Reveal from "./Reveal"
 const Projects = () => {
   const projects = [
     {
+    
       title: "Smart Tracker",
       description:
         "A full-stack task management app that helps users organize tasks, track productivity, and manage daily workflow with a clean and responsive UI.",
