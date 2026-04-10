@@ -26,7 +26,7 @@ const Projects = () => {
         "Personal developer portfolio showcasing projects, skills, and experience with modern UI, animations, and responsive design.",
       tech: ["React", "Tailwind", "Framer Motion"],
       github: "https://github.com/Vishalsinghkhati/portfolio.git",
-      live: "https://portfolio-vishalsinghkhatis-projects.vercel.app/",
+      live: "https://portfolio-sable-iota-42.vercel.app/",
     },
   ]
 
