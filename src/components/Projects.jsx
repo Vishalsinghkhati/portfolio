@@ -22,12 +22,12 @@ const Projects = () => {
       live: "https://finance-vishaldashborad-one.vercel.app/",
     },
     {
-  title: "Stone Paper Scissors Game",
-  description:
+     title: "Stone Paper Scissors Game",
+     description:
     "A full-stack 2-player Stone Paper Scissors game with 6-round gameplay, real-time score tracking, winner declaration, and game history storage with a dedicated results dashboard.",
-  tech: ["React", "Node.js", "Express.js", "MongoDB"],
-  github: "https://github.com/Vishalsinghkhati/stone-paper-scissors.git",
-  live: "https://stone-paper-scissors-rosy-one.vercel.app/",
+     tech: ["React", "Node.js", "Express.js", "MongoDB"],
+     github: "https://github.com/Vishalsinghkhati/stone-paper-scissors.git",
+     live: "https://stone-paper-scissors-rosy-one.vercel.app/",
 },
     {
       title: "Portfolio Website",
